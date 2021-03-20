@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+.menuCSS3 ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menuCSS3 a {
+    display: block;
+    padding: 2em;
+    background-color: #add8e6;
+    text-decoration: none;
+    color: #000000;
+}
+.menuCSS3 a:hover {
+    background-color: #00008b;
+    color: blanchedalmond;
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
+}
+article {
+    width: 1000px;
+    height: 315px;
+   margin-top: 50px;
+   margin-left: 50px;
+   padding: 10px;
+   color: #000000;
+   background-color: rgb(203, 204, 207);
+   padding: 20px;  
+}
+article>p{
+    padding-left: 320px;
+}
+article>h2{
+    padding-left: 320px;
+}
+.imagenesdearticulos{
+    float: left;
+}
+.side{
+    margin-left: 90px;
+    margin-right: 40px;
+    float: left;
+}
+.side>nav>ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: #c1f8c1;
+width: 150px;
+height: 100%;
+position: fixed;
+overflow: auto;
+text-align: center;
+}
+.over{
+    background-color: #add8e6;
+}
+.side>nav>ul>li a{
+    text-decoration: none;
+display: block;
+color: black;
+
+}
+.side>nav>ul>li a:hover{
+    text-decoration: none;
+    background-color: #1b5c1b;
+    color: white;
+}
+header, article, .menuCSS3 {
+    margin-left: 10%;
+}
